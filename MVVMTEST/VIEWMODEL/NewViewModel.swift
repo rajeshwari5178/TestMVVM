@@ -25,7 +25,7 @@ class NewViewModel {
         
        
         
-        
+        print("APIService")
         
         APIService.shared.fetchTodos( completion: { [weak self] (result) in
             switch result {
